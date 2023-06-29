@@ -147,6 +147,10 @@
   @apply max-sm:hidden font-manrope font-semibold text-lg text-white tracking-wide;
 }
 
+.navbar_text {
+  @apply max-sm:hidden font-manrope text-lg text-white hover:bg-slate-100 hover:text-slate-900 tracking-wide inline-block rounded-lg px-2 py-1;
+}
+
 .dropdown {
   @apply absolute right-0 top-full mt-3 w-full p-5 rounded-lg bg-white min-w-[210px] flex flex-col gap-2 justify-end items-end;
 }

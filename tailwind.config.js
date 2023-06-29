@@ -3,6 +3,7 @@ module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './containers/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
@@ -17,6 +18,11 @@ module.exports = {
         'primary-orange': '#FF5722',
         'dimWhite': "rgba(255, 255, 255, 0.7)",
         'dimBlue': "rgba(9, 151, 124, 0.1)",
+      },
+      '@layer base': {
+        '.font-manrope': {
+          fontFamily: 'Manrope, sans-serif',
+        },
       }
     },
   },

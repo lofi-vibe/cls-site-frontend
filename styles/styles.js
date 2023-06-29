@@ -2,7 +2,9 @@ const styles = {
     boxWidth: "xl:max-w-[1280px] w-full",
   
     heading2: "gradient_text font-manrope font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
-    paragraph: "paragraph_text font-manrope font-normal text-dimWhite text-[18px] leading-[30.8px]",
+    paragraph: "paragraph_text font-manrope font-normal text-[18px] leading-[30.8px]",
+
+    navbarText: "font-manrope font-semibold text-[16px] text-white leading-[30.8px]",
   
     flexCenter: "flex justify-center items-center",
     flexStart: "flex justify-center items-start",
