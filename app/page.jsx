@@ -1,3 +1,4 @@
+import Head from "next/head";
 import styles, { layout } from "../styles/styles";
 import Feed from "@components/Feed";
 
